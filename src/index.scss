@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Oswald&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body ,html, #root{
+    height: 100%;
+}
+.boxe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+#quote-box {
+    border-radius: 20px;
+    margin-top: -20px;
+    width: 600px;
+    height: auto;
+    padding: 30px 40px 20px 40px;
+    background-color: white;
+}
+#text{
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif, 'Festive', cursive;
+    padding: 12px 10px 17px 10px;
+}
+#author {
+    font-family: 'Oswald', sans-serif, 'Festive', cursive;
+}
+#buttons {
+    padding-top: 10px;
+}
